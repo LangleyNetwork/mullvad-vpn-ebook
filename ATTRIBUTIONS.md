@@ -82,3 +82,31 @@ This book is **not affiliated with, endorsed by, sponsored by, or reviewed by** 
 ---
 
 © 2026 S. Langley (Stephen Langley). All rights reserved (Full Edition).
+
+---
+
+## Author Contact
+
+**S. Langley** (Stephen Langley)
+
+- **Email:** `langleycmd@gmail.com`
+- **PGP fingerprint:** `A781EF83F8ECCC2B7850459B709A29A39885AD8E`
+- **Book signing key fingerprint:** `508C4AC59EEEC280E088247B33AD6D25004DB838`
+- **GitHub:** https://github.com/LangleyNetwork
+
+### Social Media
+
+- LinkedIn: https://www.linkedin.com/in/stephenlangley
+- Mastodon: https://mastodon.social/@stephenlangley
+- X (Twitter): https://www.x.com/stephenlangley
+- YouTube: https://www.youtube.com/@stephenlangley
+- Personal site: https://langley.services
+
+## PGP-Signed Book Files
+
+All book files (EPUB, PDF, HTML, DOCX) in both editions are PGP-signed. Detached `.asc` signatures are in the `SIGNATURES/` directory. Verification:
+
+```bash
+gpg --import SIGNATURES/ebook-signing-public-key.asc
+gpg --verify SIGNATURES/full-epub.asc out/full/epub/mullvad-vpn-ebook.epub
+```
