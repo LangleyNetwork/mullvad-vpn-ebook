@@ -2,14 +2,14 @@
 
 [![Edition: Free Limited](https://img.shields.io/badge/edition-free%20limited-294D73)](#what-this-edition-contains)
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-lightgrey)](LICENSE.md)
-[![Release: v1.0](https://img.shields.io/badge/release-v1.0-44AD4D)](https://github.com/StephenLangley/mullvad-vpn-ebook/releases/tag/v1.0)
+[![Release: v1.0](https://img.shields.io/badge/release-v1.0-44AD4D)](https://github.com/LangleyNetwork/mullvad-vpn-ebook/releases/tag/v1.0)
 [![No telemetry](https://img.shields.io/badge/telemetry-none-E34039)](#privacy)
 
 > A 40-chapter professional reference about Mullvad VPN — its features, security model, and best-use workflows — written by **S. Langley** (Stephen Langley). This repository ships the **Free Limited Edition sampler** (Chapters 1, 2, 18, 38, 39). The full 40-chapter edition is sold separately.
 
 - **Author:** S. Langley (Stephen Langley)
 - **License:** [CC BY-NC-SA 4.0](LICENSE.md) (this free edition)
-- **Repository:** <https://github.com/StephenLangley/mullvad-vpn-ebook>
+- **Repository:** <https://github.com/LangleyNetwork/mullvad-vpn-ebook>
 - **First edition:** v1.0 — September 2026
 
 ---
@@ -105,7 +105,7 @@ bash build/generate-qr.py                  # regenerate QR codes (SVG + PNG)
 
 If you just want to read the book and don't need to rebuild it from source, grab the latest release:
 
-**[v1.0 release page →](https://github.com/StephenLangley/mullvad-vpn-ebook/releases/tag/v1.0)**
+**[v1.0 release page →](https://github.com/LangleyNetwork/mullvad-vpn-ebook/releases/tag/v1.0)**
 
 Pre-built artifacts include:
 
@@ -143,7 +143,9 @@ Buy the Full Edition at any of these stores:
 | **Lulu** *(paperback + hardcover)* | Print PDF |
 | **itch.io** | EPUB + PDF (pay-what-you-want) |
 
-> Direct store links live on the [Releases page](https://github.com/StephenLangley/mullvad-vpn-ebook/releases/tag/v1.0) and at the end of every chapter in the pre-built files.
+*(Direct store links are pinned in the README of the Gumroad listing above and at the end of every chapter in the pre-built files.)*
+
+> Direct store links live on the [Releases page](https://github.com/LangleyNetwork/mullvad-vpn-ebook/releases/tag/v1.0) and at the end of every chapter in the pre-built files.
 
 ---
 

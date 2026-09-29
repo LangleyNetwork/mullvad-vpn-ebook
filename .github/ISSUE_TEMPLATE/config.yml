@@ -1,7 +1,7 @@
 blank_issues_enabled: false
 contact_links:
   - name: "Author contact (S. Langley)"
-    url: "https://github.com/StephenLangley/mullvad-vpn-ebook#about-the-author"
+    url: "https://github.com/LangleyNetwork/mullvad-vpn-ebook#about-the-author"
     about: "Direct contact for private or commercial enquiries"
   - name: "Mullvad VPN support"
     url: "https://mullvad.net/en/help/"
