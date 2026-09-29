@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: "Author contact (S. Langley)"
+    url: "https://github.com/StephenLangley/mullvad-vpn-ebook#about-the-author"
+    about: "Direct contact for private or commercial enquiries"
+  - name: "Mullvad VPN support"
+    url: "https://mullvad.net/en/help/"
+    about: "For product questions about Mullvad VPN itself"
+  - name: "Mullvad on X"
+    url: "https://www.x.com/mullvadnet"
+    about: "For general Mullvad news"

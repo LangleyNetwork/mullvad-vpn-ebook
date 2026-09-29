@@ -1,0 +1,104 @@
+# Mullvad VPN Ebook — Free Limited Edition Manifest
+
+edition: free
+isbn: null   # free edition; no ISBN required
+license: CC-BY-NC-SA-4.0
+author:
+  legal: "S. Langley"
+  aka:   "Stephen Langley"
+copyright_year: 2026
+copyright_holder: "Stephen Langley"
+first_published: 2026-09-28
+
+pricing:
+  usd: 0.00
+  eur: 0.00
+  gbp: 0.00
+  free: true
+
+markets:
+  - github_pages          # HTML, primary
+  - itchio                # EPUB + PDF, pay-what-you-want (free by default)
+  - gumroad_free          # optional mirror
+
+formats:
+  - epub3
+  - pdf_screen
+  - html
+
+chapters:
+  include: [1, 2, 18, 38, 39]
+  # 1 = Why Mullvad VPN
+  # 2 = The threat model
+  # 18 = Multihop with SOCKS5 (THE SHOWCASE)
+  # 38 = Glossary
+  # 39 = FAQ
+
+back_matter:
+  - about_mullvad
+  - contact_block
+  - social_urls
+  - pgp_fingerprint
+  - no_endorsement_disclaimer
+  - full_edition_buy_links      # explicit "Want the full 40 chapters?" block
+
+# Marketing block — appears at the end of every chapter + as the last page
+marketing_block: |
+  This is the Free Limited Edition.
+
+  Want all 40 chapters (≈350 pages, every chapter with Parts A–D,
+  QR codes for every URL)?
+
+  Buy the Full Edition:
+
+  - Amazon Kindle: https://www.amazon.com/dp/ASIN_PLACEHOLDER_KINDLE
+  - Apple Books:   https://books.apple.com/book/APPLE_ID_PLACEHOLDER
+  - Kobo:          https://www.kobo.com/ebook/KOBO_ID_PLACEHOLDER
+  - Google Play:   https://play.google.com/books/GOOGLE_ID_PLACEHOLDER
+  - Samsung Books: https://www.draft2digital.com/book/D2D_ID_PLACEHOLDER
+  - Gumroad:       https://stephenlangley.gumroad.com/l/mullvad-full
+  - Leanpub:       https://leanpub.com/mullvad-vpn
+  - Smashwords:    https://www.smashwords.com/books/view/SMASHWORDS_ID_PLACEHOLDER
+  - Lulu:          https://www.lulu.com/spot/stephenlangley/
+  - itch.io:       https://stephenlangley.itch.io/mullvad-vpn
+
+  The Free Edition is licensed under CC BY-NC-SA 4.0.
+  The Full Edition is All Rights Reserved.
+
+# QR codes marked for INLINE placement (the rest go to appendix-grid)
+qr_codes_inline:
+  - mullvad_net
+  - support_pgp
+  - downloads_page
+  - socks5_proxy_doc
+  - am_i_mullvad
+  - github_mullvad
+  - press_mullvad
+  - terms_of_service
+  - privacy_policy
+  - amazon_kindle_full      # prominent QR to paid edition
+  - apple_books_full
+  - gumroad_full
+  - leanpub_full
+
+# Brand assets
+brand:
+  palette:
+    blue:      "#294D73"
+    dark_blue: "#192E45"
+    green:     "#44AD4D"
+    red:       "#E34039"
+    yellow:    "#FFD524"
+    brown:     "#D2943B"
+    beige:     "#FFCD86"
+  fonts:
+    body:      "Open Sans"
+    headlines: "Source Sans Pro"
+
+# Verification gate
+verification:
+  min_chapter_words: 2500
+  min_total_words: 25000
+  min_pages_pdf: 80
+  max_pages_pdf: 140
+  required_quality_gates: 12

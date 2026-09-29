@@ -1,0 +1,586 @@
+{
+  "version": "1.0",
+  "edition": "free",
+  "total": 32,
+  "inline_count": 6,
+  "urls": [
+    {
+      "url": "https://mullvad.net",
+      "label": "Mullvad VPN homepage",
+      "chapter": 1,
+      "slug": "mullvad_net",
+      "inline": true,
+      "fg": "#192E45",
+      "bg": "#FFFFFF"
+    },
+    {
+      "url": "https://mullvad.net/en/help/socks5-proxy/",
+      "label": "SOCKS5 proxy guide (Mullvad)",
+      "chapter": 18,
+      "slug": "socks5_proxy_doc",
+      "inline": true,
+      "fg": "#192E45",
+      "bg": "#FFFFFF"
+    },
+    {
+      "url": "https://mullvad.net/en/help/different-entryexit-node-using-wireguard-and-socks5-proxy",
+      "label": "Multihop with SOCKS5 + WireGuard (Mullvad)",
+      "chapter": 18,
+      "slug": "multihop_socks5_wg_doc",
+      "inline": false,
+      "fg": "#192E45",
+      "bg": "#FFFFFF"
+    },
+    {
+      "url": "https://mullvad.net/en/help/multihop-wireguard",
+      "label": "Multihop with WireGuard (Mullvad)",
+      "chapter": 19,
+      "slug": "multihop_wg_doc",
+      "inline": false,
+      "fg": "#192E45",
+      "bg": "#FFFFFF"
+    },
+    {
+      "url": "https://mullvad.net/en/help/multihop-wireguard",
+      "label": "Multihop with WireGuard (Mullvad) \u2014 ch19",
+      "chapter": 19,
+      "slug": "multihop_wg_doc_ch19",
+      "inline": false,
+      "fg": "#192E45",
+      "bg": "#FFFFFF"
+    },
+    {
+      "url": "https://mullvad.net/en/blog/introducing-multihop-modes",
+      "label": "Introducing Multihop Modes blog post (2026-08-24)",
+      "chapter": 20,
+      "slug": "multihop_modes_blog",
+      "inline": false,
+      "fg": "#192E45",
+      "bg": "#FFFFFF"
+    },
+    {
+      "url": "https://mullvad.net/en/help/no-logging-of-user-activity-policy",
+      "label": "No-logging-of-user-activity policy (Mullvad)",
+      "chapter": 17,
+      "slug": "no_logs_policy",
+      "inline": false,
+      "fg": "#192E45",
+      "bg": "#FFFFFF"
+    },
+    {
+      "url": "https://am.i.mullvad.net",
+      "label": "Am I Mullvad? connection check",
+      "chapter": 18,
+      "slug": "am_i_mullvad",
+      "inline": true,
+      "fg": "#192E45",
+      "bg": "#FFFFFF"
+    },
+    {
+      "url": "https://ipv4.am.i.mullvad.net",
+      "label": "IPv4 connection check (Mullvad)",
+      "chapter": 18,
+      "slug": "ipv4_am_i_mullvad",
+      "inline": false,
+      "fg": "#192E45",
+      "bg": "#FFFFFF"
+    },
+    {
+      "url": "https://ipv6.am.i.mullvad.net",
+      "label": "IPv6 connection check (Mullvad)",
+      "chapter": 18,
+      "slug": "ipv6_am_i_mullvad",
+      "inline": false,
+      "fg": "#192E45",
+      "bg": "#FFFFFF"
+    },
+    {
+      "url": "https://support@mullvadvpn.net",
+      "label": "Mullvad support email",
+      "chapter": 35,
+      "slug": "support_email",
+      "inline": false,
+      "fg": "#192E45",
+      "bg": "#FFFFFF"
+    },
+    {
+      "url": "https://mullvad.net/static/gpg/mullvadvpn-support-mail.asc",
+      "label": "Mullvad PGP key file",
+      "chapter": 35,
+      "slug": "pgp_key",
+      "inline": false,
+      "fg": "#192E45",
+      "bg": "#FFFFFF"
+    },
+    {
+      "url": "https://keys.openpgp.org/vks/v1/by-fingerprint/291FCE632170E5D9005F15563A91DB0E8DA801C4",
+      "label": "Mullvad PGP key (keys.openpgp.org)",
+      "chapter": 35,
+      "slug": "pgp_keyserver",
+      "inline": false,
+      "fg": "#192E45",
+      "bg": "#FFFFFF"
+    },
+    {
+      "url": "https://mullvad.net/en/help/privacy-policy",
+      "label": "Privacy policy (Mullvad)",
+      "chapter": null,
+      "slug": "privacy_policy",
+      "inline": true,
+      "fg": "#192E45",
+      "bg": "#FFFFFF"
+    },
+    {
+      "url": "https://mullvad.net/en/help/terms-service",
+      "label": "Terms of service (Mullvad)",
+      "chapter": null,
+      "slug": "terms_service",
+      "inline": false,
+      "fg": "#192E45",
+      "bg": "#FFFFFF"
+    },
+    {
+      "url": "https://mullvad.net/en/help/cookie-policy",
+      "label": "Cookie policy (Mullvad)",
+      "chapter": null,
+      "slug": "cookie_policy",
+      "inline": false,
+      "fg": "#192E45",
+      "bg": "#FFFFFF"
+    },
+    {
+      "url": "https://mullvad.net/en/policies",
+      "label": "All Mullvad policies",
+      "chapter": null,
+      "slug": "policies",
+      "inline": false,
+      "fg": "#192E45",
+      "bg": "#FFFFFF"
+    },
+    {
+      "url": "https://mullvad.net/en/about/",
+      "label": "About Mullvad",
+      "chapter": 1,
+      "slug": "about_mullvad",
+      "inline": false,
+      "fg": "#192E45",
+      "bg": "#FFFFFF"
+    },
+    {
+      "url": "https://mullvad.net/en/press/",
+      "label": "Press page (logos, mission, palette)",
+      "chapter": null,
+      "slug": "press_mullvad",
+      "inline": true,
+      "fg": "#192E45",
+      "bg": "#FFFFFF"
+    },
+    {
+      "url": "https://github.com/mullvad",
+      "label": "Mullvad on GitHub",
+      "chapter": 37,
+      "slug": "github_mullvad",
+      "inline": true,
+      "fg": "#192E45",
+      "bg": "#FFFFFF"
+    },
+    {
+      "url": "https://www.youtube.com/c/MullvadVPNNet",
+      "label": "Mullvad YouTube channel",
+      "chapter": null,
+      "slug": "youtube_mullvad",
+      "inline": false,
+      "fg": "#192E45",
+      "bg": "#FFFFFF"
+    },
+    {
+      "url": "https://www.x.com/mullvadnet",
+      "label": "Mullvad on X",
+      "chapter": null,
+      "slug": "x_mullvad",
+      "inline": false,
+      "fg": "#192E45",
+      "bg": "#FFFFFF"
+    },
+    {
+      "url": "https://mastodon.online/@mullvadnet",
+      "label": "Mullvad on Mastodon",
+      "chapter": null,
+      "slug": "mastodon_mullvad",
+      "inline": false,
+      "fg": "#192E45",
+      "bg": "#FFFFFF"
+    },
+    {
+      "url": "https://api.mullvad.net/www/relays/wireguard/",
+      "label": "Mullvad wireguard relays JSON",
+      "chapter": 10,
+      "slug": "api_relays_wireguard",
+      "inline": false,
+      "fg": "#192E45",
+      "bg": "#FFFFFF"
+    },
+    {
+      "url": "https://mullvad.net/en/download/vpn/macos/",
+      "label": "Download Mullvad for macOS",
+      "chapter": 5,
+      "slug": "download_macos",
+      "inline": false,
+      "fg": "#192E45",
+      "bg": "#FFFFFF"
+    },
+    {
+      "url": "https://mullvad.net/en/download/vpn/windows/",
+      "label": "Download Mullvad for Windows",
+      "chapter": 6,
+      "slug": "download_windows",
+      "inline": false,
+      "fg": "#192E45",
+      "bg": "#FFFFFF"
+    },
+    {
+      "url": "https://mullvad.net/en/download/vpn/linux",
+      "label": "Download Mullvad for Linux",
+      "chapter": 7,
+      "slug": "download_linux",
+      "inline": false,
+      "fg": "#192E45",
+      "bg": "#FFFFFF"
+    },
+    {
+      "url": "https://mullvad.net/en/download/browser/",
+      "label": "Download Mullvad Browser",
+      "chapter": 27,
+      "slug": "download_browser",
+      "inline": false,
+      "fg": "#192E45",
+      "bg": "#FFFFFF"
+    },
+    {
+      "url": "https://www.mullvad.careers/",
+      "label": "Mullvad careers",
+      "chapter": 37,
+      "slug": "careers",
+      "inline": false,
+      "fg": "#192E45",
+      "bg": "#FFFFFF"
+    },
+    {
+      "url": "https://mullvad.net/en/open-source",
+      "label": "Mullvad open source page",
+      "chapter": 37,
+      "slug": "opensource",
+      "inline": false,
+      "fg": "#192E45",
+      "bg": "#FFFFFF"
+    },
+    {
+      "url": "https://mullvad.net/en/help/how-report-bug-or-vulnerability",
+      "label": "Report a bug or vulnerability",
+      "chapter": 34,
+      "slug": "bug_report",
+      "inline": false,
+      "fg": "#192E45",
+      "bg": "#FFFFFF"
+    },
+    {
+      "url": "https://mullvad.net/en/help/partnerships-and-resellers",
+      "label": "Mullvad reseller program",
+      "chapter": 37,
+      "slug": "reseller_program",
+      "inline": false,
+      "fg": "#192E45",
+      "bg": "#FFFFFF"
+    }
+  ],
+  "generated": [
+    {
+      "url": "https://mullvad.net",
+      "slug": "mullvad_net",
+      "label": "Mullvad VPN homepage",
+      "svg": "assets/qr-codes/svg/mullvad_net.svg",
+      "png": "assets/qr-codes/png/mullvad_net.png",
+      "svg_size_bytes": 1616,
+      "png_size_bytes": 795
+    },
+    {
+      "url": "https://mullvad.net/en/help/socks5-proxy/",
+      "slug": "mullvad_net_en_help_socks5-proxy",
+      "label": "SOCKS5 proxy guide (Mullvad)",
+      "svg": "assets/qr-codes/svg/mullvad_net_en_help_socks5-proxy.svg",
+      "png": "assets/qr-codes/png/mullvad_net_en_help_socks5-proxy.png",
+      "svg_size_bytes": 2422,
+      "png_size_bytes": 1204
+    },
+    {
+      "url": "https://mullvad.net/en/help/different-entryexit-node-using-wireguard-and-socks5-proxy",
+      "slug": "mullvad_net_en_help_different-entryexit-node-using-wireguard-and-socks5-proxy",
+      "label": "Multihop with SOCKS5 + WireGuard (Mullvad)",
+      "svg": "assets/qr-codes/svg/mullvad_net_en_help_different-entryexit-node-using-wireguard-and-socks5-proxy.svg",
+      "png": "assets/qr-codes/png/mullvad_net_en_help_different-entryexit-node-using-wireguard-and-socks5-proxy.png",
+      "svg_size_bytes": 4665,
+      "png_size_bytes": 2175
+    },
+    {
+      "url": "https://mullvad.net/en/help/multihop-wireguard",
+      "slug": "mullvad_net_en_help_multihop-wireguard",
+      "label": "Multihop with WireGuard (Mullvad)",
+      "svg": "assets/qr-codes/svg/mullvad_net_en_help_multihop-wireguard.svg",
+      "png": "assets/qr-codes/png/mullvad_net_en_help_multihop-wireguard.png",
+      "svg_size_bytes": 2994,
+      "png_size_bytes": 1414
+    },
+    {
+      "url": "https://mullvad.net/en/help/multihop-wireguard",
+      "slug": "mullvad_net_en_help_multihop-wireguard",
+      "label": "Multihop with WireGuard (Mullvad) \u2014 ch19",
+      "svg": "assets/qr-codes/svg/mullvad_net_en_help_multihop-wireguard.svg",
+      "png": "assets/qr-codes/png/mullvad_net_en_help_multihop-wireguard.png",
+      "svg_size_bytes": 2994,
+      "png_size_bytes": 1414
+    },
+    {
+      "url": "https://mullvad.net/en/blog/introducing-multihop-modes",
+      "slug": "mullvad_net_en_blog_introducing-multihop-modes",
+      "label": "Introducing Multihop Modes blog post (2026-08-24)",
+      "svg": "assets/qr-codes/svg/mullvad_net_en_blog_introducing-multihop-modes.svg",
+      "png": "assets/qr-codes/png/mullvad_net_en_blog_introducing-multihop-modes.png",
+      "svg_size_bytes": 2989,
+      "png_size_bytes": 1405
+    },
+    {
+      "url": "https://mullvad.net/en/help/no-logging-of-user-activity-policy",
+      "slug": "mullvad_net_en_help_no-logging-of-user-activity-policy",
+      "label": "No-logging-of-user-activity policy (Mullvad)",
+      "svg": "assets/qr-codes/svg/mullvad_net_en_help_no-logging-of-user-activity-policy.svg",
+      "png": "assets/qr-codes/png/mullvad_net_en_help_no-logging-of-user-activity-policy.png",
+      "svg_size_bytes": 3435,
+      "png_size_bytes": 1636
+    },
+    {
+      "url": "https://am.i.mullvad.net",
+      "slug": "am_i_mullvad_net",
+      "label": "Am I Mullvad? connection check",
+      "svg": "assets/qr-codes/svg/am_i_mullvad_net.svg",
+      "png": "assets/qr-codes/png/am_i_mullvad_net.png",
+      "svg_size_bytes": 1604,
+      "png_size_bytes": 796
+    },
+    {
+      "url": "https://ipv4.am.i.mullvad.net",
+      "slug": "ipv4_am_i_mullvad_net",
+      "label": "IPv4 connection check (Mullvad)",
+      "svg": "assets/qr-codes/svg/ipv4_am_i_mullvad_net.svg",
+      "png": "assets/qr-codes/png/ipv4_am_i_mullvad_net.png",
+      "svg_size_bytes": 2012,
+      "png_size_bytes": 963
+    },
+    {
+      "url": "https://ipv6.am.i.mullvad.net",
+      "slug": "ipv6_am_i_mullvad_net",
+      "label": "IPv6 connection check (Mullvad)",
+      "svg": "assets/qr-codes/svg/ipv6_am_i_mullvad_net.svg",
+      "png": "assets/qr-codes/png/ipv6_am_i_mullvad_net.png",
+      "svg_size_bytes": 2043,
+      "png_size_bytes": 968
+    },
+    {
+      "url": "https://support@mullvadvpn.net",
+      "slug": "support@mullvadvpn_net",
+      "label": "Mullvad support email",
+      "svg": "assets/qr-codes/svg/support@mullvadvpn_net.svg",
+      "png": "assets/qr-codes/png/support@mullvadvpn_net.png",
+      "svg_size_bytes": 1977,
+      "png_size_bytes": 956
+    },
+    {
+      "url": "https://mullvad.net/static/gpg/mullvadvpn-support-mail.asc",
+      "slug": "mullvad_net_static_gpg_mullvadvpn-support-mail_asc",
+      "label": "Mullvad PGP key file",
+      "svg": "assets/qr-codes/svg/mullvad_net_static_gpg_mullvadvpn-support-mail_asc.svg",
+      "png": "assets/qr-codes/png/mullvad_net_static_gpg_mullvadvpn-support-mail_asc.png",
+      "svg_size_bytes": 2946,
+      "png_size_bytes": 1418
+    },
+    {
+      "url": "https://keys.openpgp.org/vks/v1/by-fingerprint/291FCE632170E5D9005F15563A91DB0E8DA801C4",
+      "slug": "keys_openpgp_org_vks_v1_by-fingerprint_291fce632170e5d9005f15563a91db0e8da801c4",
+      "label": "Mullvad PGP key (keys.openpgp.org)",
+      "svg": "assets/qr-codes/svg/keys_openpgp_org_vks_v1_by-fingerprint_291fce632170e5d9005f15563a91db0e8da801c4.svg",
+      "png": "assets/qr-codes/png/keys_openpgp_org_vks_v1_by-fingerprint_291fce632170e5d9005f15563a91db0e8da801c4.png",
+      "svg_size_bytes": 4568,
+      "png_size_bytes": 2177
+    },
+    {
+      "url": "https://mullvad.net/en/help/privacy-policy",
+      "slug": "mullvad_net_en_help_privacy-policy",
+      "label": "Privacy policy (Mullvad)",
+      "svg": "assets/qr-codes/svg/mullvad_net_en_help_privacy-policy.svg",
+      "png": "assets/qr-codes/png/mullvad_net_en_help_privacy-policy.png",
+      "svg_size_bytes": 2465,
+      "png_size_bytes": 1217
+    },
+    {
+      "url": "https://mullvad.net/en/help/terms-service",
+      "slug": "mullvad_net_en_help_terms-service",
+      "label": "Terms of service (Mullvad)",
+      "svg": "assets/qr-codes/svg/mullvad_net_en_help_terms-service.svg",
+      "png": "assets/qr-codes/png/mullvad_net_en_help_terms-service.png",
+      "svg_size_bytes": 2410,
+      "png_size_bytes": 1212
+    },
+    {
+      "url": "https://mullvad.net/en/help/cookie-policy",
+      "slug": "mullvad_net_en_help_cookie-policy",
+      "label": "Cookie policy (Mullvad)",
+      "svg": "assets/qr-codes/svg/mullvad_net_en_help_cookie-policy.svg",
+      "png": "assets/qr-codes/png/mullvad_net_en_help_cookie-policy.png",
+      "svg_size_bytes": 2417,
+      "png_size_bytes": 1214
+    },
+    {
+      "url": "https://mullvad.net/en/policies",
+      "slug": "mullvad_net_en_policies",
+      "label": "All Mullvad policies",
+      "svg": "assets/qr-codes/svg/mullvad_net_en_policies.svg",
+      "png": "assets/qr-codes/png/mullvad_net_en_policies.png",
+      "svg_size_bytes": 1976,
+      "png_size_bytes": 960
+    },
+    {
+      "url": "https://mullvad.net/en/about/",
+      "slug": "mullvad_net_en_about",
+      "label": "About Mullvad",
+      "svg": "assets/qr-codes/svg/mullvad_net_en_about.svg",
+      "png": "assets/qr-codes/png/mullvad_net_en_about.png",
+      "svg_size_bytes": 2006,
+      "png_size_bytes": 953
+    },
+    {
+      "url": "https://mullvad.net/en/press/",
+      "slug": "mullvad_net_en_press",
+      "label": "Press page (logos, mission, palette)",
+      "svg": "assets/qr-codes/svg/mullvad_net_en_press.svg",
+      "png": "assets/qr-codes/png/mullvad_net_en_press.png",
+      "svg_size_bytes": 1959,
+      "png_size_bytes": 959
+    },
+    {
+      "url": "https://github.com/mullvad",
+      "slug": "github_com_mullvad",
+      "label": "Mullvad on GitHub",
+      "svg": "assets/qr-codes/svg/github_com_mullvad.svg",
+      "png": "assets/qr-codes/png/github_com_mullvad.png",
+      "svg_size_bytes": 2000,
+      "png_size_bytes": 973
+    },
+    {
+      "url": "https://www.youtube.com/c/MullvadVPNNet",
+      "slug": "www_youtube_com_c_mullvadvpnnet",
+      "label": "Mullvad YouTube channel",
+      "svg": "assets/qr-codes/svg/www_youtube_com_c_mullvadvpnnet.svg",
+      "png": "assets/qr-codes/png/www_youtube_com_c_mullvadvpnnet.png",
+      "svg_size_bytes": 2477,
+      "png_size_bytes": 1208
+    },
+    {
+      "url": "https://www.x.com/mullvadnet",
+      "slug": "www_x_com_mullvadnet",
+      "label": "Mullvad on X",
+      "svg": "assets/qr-codes/svg/www_x_com_mullvadnet.svg",
+      "png": "assets/qr-codes/png/www_x_com_mullvadnet.png",
+      "svg_size_bytes": 1982,
+      "png_size_bytes": 972
+    },
+    {
+      "url": "https://mastodon.online/@mullvadnet",
+      "slug": "mastodon_online_@mullvadnet",
+      "label": "Mullvad on Mastodon",
+      "svg": "assets/qr-codes/svg/mastodon_online_@mullvadnet.svg",
+      "png": "assets/qr-codes/png/mastodon_online_@mullvadnet.png",
+      "svg_size_bytes": 2453,
+      "png_size_bytes": 1199
+    },
+    {
+      "url": "https://api.mullvad.net/www/relays/wireguard/",
+      "slug": "api_mullvad_net_www_relays_wireguard",
+      "label": "Mullvad wireguard relays JSON",
+      "svg": "assets/qr-codes/svg/api_mullvad_net_www_relays_wireguard.svg",
+      "png": "assets/qr-codes/png/api_mullvad_net_www_relays_wireguard.png",
+      "svg_size_bytes": 3042,
+      "png_size_bytes": 1412
+    },
+    {
+      "url": "https://mullvad.net/en/download/vpn/macos/",
+      "slug": "mullvad_net_en_download_vpn_macos",
+      "label": "Download Mullvad for macOS",
+      "svg": "assets/qr-codes/svg/mullvad_net_en_download_vpn_macos.svg",
+      "png": "assets/qr-codes/png/mullvad_net_en_download_vpn_macos.png",
+      "svg_size_bytes": 2417,
+      "png_size_bytes": 1213
+    },
+    {
+      "url": "https://mullvad.net/en/download/vpn/windows/",
+      "slug": "mullvad_net_en_download_vpn_windows",
+      "label": "Download Mullvad for Windows",
+      "svg": "assets/qr-codes/svg/mullvad_net_en_download_vpn_windows.svg",
+      "png": "assets/qr-codes/png/mullvad_net_en_download_vpn_windows.png",
+      "svg_size_bytes": 2369,
+      "png_size_bytes": 1197
+    },
+    {
+      "url": "https://mullvad.net/en/download/vpn/linux",
+      "slug": "mullvad_net_en_download_vpn_linux",
+      "label": "Download Mullvad for Linux",
+      "svg": "assets/qr-codes/svg/mullvad_net_en_download_vpn_linux.svg",
+      "png": "assets/qr-codes/png/mullvad_net_en_download_vpn_linux.png",
+      "svg_size_bytes": 2436,
+      "png_size_bytes": 1203
+    },
+    {
+      "url": "https://mullvad.net/en/download/browser/",
+      "slug": "mullvad_net_en_download_browser",
+      "label": "Download Mullvad Browser",
+      "svg": "assets/qr-codes/svg/mullvad_net_en_download_browser.svg",
+      "png": "assets/qr-codes/png/mullvad_net_en_download_browser.png",
+      "svg_size_bytes": 2449,
+      "png_size_bytes": 1198
+    },
+    {
+      "url": "https://www.mullvad.careers/",
+      "slug": "www_mullvad_careers",
+      "label": "Mullvad careers",
+      "svg": "assets/qr-codes/svg/www_mullvad_careers.svg",
+      "png": "assets/qr-codes/png/www_mullvad_careers.png",
+      "svg_size_bytes": 1983,
+      "png_size_bytes": 964
+    },
+    {
+      "url": "https://mullvad.net/en/open-source",
+      "slug": "mullvad_net_en_open-source",
+      "label": "Mullvad open source page",
+      "svg": "assets/qr-codes/svg/mullvad_net_en_open-source.svg",
+      "png": "assets/qr-codes/png/mullvad_net_en_open-source.png",
+      "svg_size_bytes": 2048,
+      "png_size_bytes": 960
+    },
+    {
+      "url": "https://mullvad.net/en/help/how-report-bug-or-vulnerability",
+      "slug": "mullvad_net_en_help_how-report-bug-or-vulnerability",
+      "label": "Report a bug or vulnerability",
+      "svg": "assets/qr-codes/svg/mullvad_net_en_help_how-report-bug-or-vulnerability.svg",
+      "png": "assets/qr-codes/png/mullvad_net_en_help_how-report-bug-or-vulnerability.png",
+      "svg_size_bytes": 3405,
+      "png_size_bytes": 1648
+    },
+    {
+      "url": "https://mullvad.net/en/help/partnerships-and-resellers",
+      "slug": "mullvad_net_en_help_partnerships-and-resellers",
+      "label": "Mullvad reseller program",
+      "svg": "assets/qr-codes/svg/mullvad_net_en_help_partnerships-and-resellers.svg",
+      "png": "assets/qr-codes/png/mullvad_net_en_help_partnerships-and-resellers.png",
+      "svg_size_bytes": 2929,
+      "png_size_bytes": 1395
+    }
+  ]
+}
