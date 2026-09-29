@@ -67,6 +67,7 @@ htmlcov/
 # Secrets (never commit)
 *.pem
 *.key
-.envRELEASE_HANDOFF.md
+.env
 
 # Maintainer-only handoff doc — never commit
+RELEASE_HANDOFF.md
